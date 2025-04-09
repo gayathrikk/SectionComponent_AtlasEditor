@@ -159,7 +159,7 @@ public class AtlasEditor {
 			} else {
 			   System.out.println("Atlas editor icon is not clicked");
 			}
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 		
 			WebElement editMenu = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='Edit Menu']")));
 			if (editMenu != null && editMenu.isDisplayed()) {
@@ -168,7 +168,7 @@ public class AtlasEditor {
 			} else {
 			   System.out.println("Edit menu icon is not clicked");
 			}
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			  }
 	
 	@Test(priority=4)
